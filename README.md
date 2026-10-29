@@ -54,16 +54,22 @@ Lawyer uploads PDF
 ## Setup & Run
 
 **1. Clone and enter the project**
+
 git clone <your-repo-url>
+
 cd legal-ai-guard
+
 create folder called `data` and add two folders on it called `chroma` and `uploads`
 
 
 **2. Create a virtual environment**
+
 python -m venv venv
+
 venv\Scripts\activate
 
 **3. Install dependencies**
+
 pip install -r requirements.txt
 
 
@@ -71,12 +77,15 @@ pip install -r requirements.txt
 
 Create a file called `.env` in the project root and paste:
 GROQ_API_KEY=your_key_here
+
 Get a free key at https://console.groq.com
 
 Without a key: matter isolation, injection blocking, PII redaction, and audit logging still work. Only the AI-generated answer is disabled.
 
 **5. Run the app**
+
 streamlit run app.py
+
 The browser opens at http://localhost:8501
 
 ---
