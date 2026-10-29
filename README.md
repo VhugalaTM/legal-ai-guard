@@ -78,7 +78,8 @@ pip install -r requirements.txt
 Create a file called `.env` in the project root and paste:
 GROQ_API_KEY=your_key_here
 
-Get a free key at https://console.groq.com
+Get a free key at https://console.groq.com  
+NB: this model handles documents
 
 Without a key: matter isolation, injection blocking, PII redaction, and audit logging still work. Only the AI-generated answer is disabled.
 
