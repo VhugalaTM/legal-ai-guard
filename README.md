@@ -1,5 +1,7 @@
 # Legal AI Guard
 
+Link: https://legal-ai-guard-gpa6gjqepcxad9jrod7xgq.streamlit.app
+
 A governed AI document assistant for small law firms.
 
 Small firms handle highly confidential documents but have no security staff. The easiest AI tools available to them are public chatbots that can expose client data in a single paste. This platform makes the safe path the easy path enforcing confidentiality controls the firm could not implement itself, with no technical expertise required.
